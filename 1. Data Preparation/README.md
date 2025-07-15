@@ -14,16 +14,22 @@ Contains customer demographic information:
 - `est_gndr`: Gender (M/F)
 - `est_create_date`: Account creation date
 
+![Data](image/cust_data.png)
+
 ### Customer Additional Info (`cust_data2.png`)
 Contains supplementary customer data:
 - `CID`: Customer ID (matches est_id from cust_data)
 - `BDATE`: Birth date
 - `GEN`: Gender (redundant with est_gndr)
 
+![Data](image/cust_data2.png)
+
 ### Location Data (`loc_data.png`)
 Contains customer geographic information:
 - `CID`: Customer ID
 - `CNTRY`: Country of residence
+
+![Data](image/loc_data.png)
 
 ### Product Data (`prd_data.png`)
 Contains product information:
@@ -35,12 +41,16 @@ Contains product information:
 - `prd_start_dt`: Product introduction date
 - `prd_end_dt`: Product discontinuation date (if applicable)
 
+![Data](image/prd_data.png)
+
 ### Product Category Data (`px_cat_data.png`)
 Contains product categorization:
 - `ID`: Category ID
 - `CAT`: Main category (e.g., Accessories, Bikes, Clothing)
 - `SUBCAT`: Subcategory
 - `MAINTENANCE`: Whether maintenance is required (Yes/No)
+
+![Data](image/px_cat_data.png)
 
 ### Sales Data (`sales_data.png`)
 Contains transaction records:
@@ -53,6 +63,8 @@ Contains transaction records:
 - `sis_sales`: Total sale amount
 - `sis_quantity`: Quantity purchased
 - `sis_price`: Unit price
+
+![Data](image/sales_data.png)
 
 ## Data Transformation
 
