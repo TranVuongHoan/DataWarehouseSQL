@@ -126,5 +126,5 @@ The `gold` schema defines the final analytics-ready views:
 
 ---
 
-![Data](image/datawarehouse1.png)
-![Data](image/datawarehouse2.png)
+![Data](image/DataWarehouse1.png)
+![Data](image/DataWarehouse2.png)
